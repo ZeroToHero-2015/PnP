@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ZeroToHero.Domain.Entities
+﻿namespace ZeroToHero.Domain.Entities
 {
     public class User
     {
