@@ -65,7 +65,7 @@
       <Project>{92c7488d-dde8-40b3-9d12-bc5f5357d7fe}</Project>
       <Name>ZeroToHero.Library</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ZeroToHero.SingleResponsabilityPrinciple\ZeroToHero.Domain.csproj">
+    <ProjectReference Include="..\ZeroToHero.Domain\ZeroToHero.Domain.csproj">
       <Project>{e8dd4361-32f1-4c80-9277-00faaab1e8f3}</Project>
       <Name>ZeroToHero.Domain</Name>
     </ProjectReference>

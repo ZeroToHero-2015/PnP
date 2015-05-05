@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroToHero.Tests", "ZeroToHero.Tests\ZeroToHero.Tests.csproj", "{65E71D49-177F-4D6A-AE92-D7F89C1134BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroToHero.Domain", "ZeroToHero.SingleResponsabilityPrinciple\ZeroToHero.Domain.csproj", "{E8DD4361-32F1-4C80-9277-00FAAAB1E8F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroToHero.Domain", "ZeroToHero.Domain\ZeroToHero.Domain.csproj", "{E8DD4361-32F1-4C80-9277-00FAAAB1E8F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroToHero.Library", "ZeroToHero.Library\ZeroToHero.Library.csproj", "{92C7488D-DDE8-40B3-9D12-BC5F5357D7FE}"
 EndProject
