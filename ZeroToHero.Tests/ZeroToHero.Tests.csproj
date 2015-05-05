@@ -54,8 +54,10 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Helpers\ConsoleOutputAssert.cs" />
+    <Compile Include="LiskovSubstitutionPrincipleTests.cs" />
     <Compile Include="SingleResponsabilityPrincipleTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="OpenClosedPrincipleTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ZeroToHero.Library\ZeroToHero.Library.csproj">

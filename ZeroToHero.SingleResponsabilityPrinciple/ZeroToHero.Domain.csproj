@@ -39,6 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Developer.cs" />
+    <Compile Include="Entities\Manager.cs" />
     <Compile Include="Serializers\UserSerializers\UserHtmlSerializer.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
