@@ -1,8 +1,9 @@
 ﻿using System;
+using ZeroToHero.Domain.Entities.UserModels;
 
 namespace ZeroToHero.Domain.Entities
 {
-    public abstract class User
+    public abstract class User : IUserGraphicModel, IUserTextModel
     {
         private readonly string name;
         private readonly string avatar;
