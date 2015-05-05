@@ -3,7 +3,7 @@ using ZeroToHero.Domain.Entities.UserModels;
 
 namespace ZeroToHero.Domain.Entities
 {
-    public abstract class User : IUserGraphicModel, IUserTextModel
+    public abstract class User : IUserGraphicModel, IUserTextModel, IMotivable
     {
         private readonly string name;
         private readonly string avatar;
@@ -33,9 +33,14 @@ namespace ZeroToHero.Domain.Entities
 
         public virtual void Greet()
         {
-            Console.WriteLine("{0} waves at you!", name);
+            Console.Write("{0} waves at you!", name);
         }
 
         public abstract void Work();
+
+        public void Motivate()
+        {
+            Console.Write("{0} feels somewhat more motivated.", name);
+        }
     }
 }

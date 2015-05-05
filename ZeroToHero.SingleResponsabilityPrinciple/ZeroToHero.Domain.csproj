@@ -40,9 +40,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Developer.cs" />
+    <Compile Include="Entities\IMotivable.cs" />
     <Compile Include="Entities\Manager.cs" />
+    <Compile Include="Entities\TaskMaster.cs" />
     <Compile Include="Entities\UserModels\IUserGraphicModel.cs" />
     <Compile Include="Entities\UserModels\IUserTextModel.cs" />
+    <Compile Include="Motivators\IMotivator.cs" />
+    <Compile Include="Motivators\Carrot.cs" />
+    <Compile Include="Motivators\Stick.cs" />
     <Compile Include="Serializers\UserSerializers\UserHtmlSerializer.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

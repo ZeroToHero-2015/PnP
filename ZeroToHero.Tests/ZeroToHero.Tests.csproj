@@ -53,6 +53,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="DependencyInversionPrincipleTests.cs" />
     <Compile Include="Helpers\ConsoleOutputAssert.cs" />
     <Compile Include="LiskovSubstitutionPrincipleTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
